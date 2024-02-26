@@ -33,10 +33,10 @@
             </router-link>
           </h6>
           <p id="item-price" class="mb-0 font-weight-bold">
-            $ {{ cartItem.product.price }} за единицу
+            $ {{ cartItem.product.price }} за кв. метр
           </p>
           <p id="item-quantity" class="mb-0">
-            Количество :
+            кв. метров:
             <input
               size="1"
               class="p-0 h-25 border-bottom border-top-0 border-left-0 border-right-0"
@@ -60,7 +60,7 @@
 
     <!-- display total price -->
     <div class="total-cost pt-2 text-right">
-      <h5>Итого : $ {{ totalcost.toFixed(2) }}</h5>
+      <h5>Итого: $ {{ totalcost.toFixed(2) }}</h5>
       <button
         :disabled="isDisabled()"
         type="button"

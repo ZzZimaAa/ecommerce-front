@@ -10,7 +10,7 @@
         <div class="col-3"></div>
         <div class="col-md-6 px-5 px-md-0 pt-5">
           <div class="form-group">
-            <label for="myfile">Выбрать картинку :</label>
+            <label for="myfile">Выбрать картинку:</label>
             <input type="file" id="myfile" class="form-control-file" @change="onFileSelected">
           </div>
           <button type="button" class="btn btn-info" @click="onUpload">Загрузить</button>
@@ -48,7 +48,7 @@
                  this.selectedFile.type !== "image/jpg") {
                   //file format is not correct
                   swal({
-                      text: "Выберите изображение/файл jpeg!",
+                      text: "Выберите изображение (jpeg файл)!",
                       icon: "error",
                       closeOnClickOutside: false,
                   });

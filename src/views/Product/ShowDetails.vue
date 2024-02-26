@@ -16,7 +16,7 @@
         <div class="d-flex flex-row justify-content-between">
           <div class="input-group col-md-3 col-4 p-0">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Количество</span>
+              <span class="input-group-text" id="basic-addon1">кв. метров</span>
             </div>
             <input class="form-control" type="number" v-bind:value="quantity" />
           </div>
@@ -28,7 +28,7 @@
               class="btn"
               @click="addToCart(this.id)"
             >
-              Add to Cart
+              Добавить в корзину
               <ion-icon name="cart-outline" v-pre></ion-icon>
             </button>
           </div>
@@ -37,10 +37,10 @@
         <div class="features pt-3">
           <h5><strong>Преимущества</strong></h5>
           <ul>
-            <li>Круто</li>
             <li>Быстро</li>
             <li>Красиво</li>
-            <li>Информативно</li>
+            <li>Качественно</li>
+            <li>Безопасно</li>
             <li>Уникально</li>
           </ul>
         </div>
@@ -59,7 +59,7 @@
           class="btn mr-3 p-1 py-0"
           @click="listCartItems()"
         >
-          Show Cart
+          Показать корзину
 
           <ion-icon name="cart-outline" v-pre></ion-icon>
         </button>

@@ -1,7 +1,7 @@
 <template>
     <div class="adminPanel container">
         <router-link :to="{name : 'AdminProduct'}">
-          <button type="button" class="btn btn-primary btn-lg">Управление продуктами</button>
+          <button type="button" class="btn btn-primary btn-lg">Управление услугами</button>
         </router-link>
         <router-link :to="{name : 'AdminCategory'}">
           <button type="button" class="btn btn-primary btn-lg">Управление категориями</button>

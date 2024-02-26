@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h4 class="pt-3">Изменить продукт</h4>
+          <h4 class="pt-3">Изменить услугу</h4>
         </div>
       </div>
   

@@ -2,9 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h4 class="pt-3">Наши продукты</h4>
+        <h4 class="pt-3">Наши услуги</h4>
         <router-link id="add-product" :to="{name : 'AddProduct'}" v-show="$route.name=='AdminProduct'">
-          <button class="btn">Добавить новый продукт</button>
+          <button class="btn">Добавить новую услугу</button>
         </router-link>
       </div>
     </div>

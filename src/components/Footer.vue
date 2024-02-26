@@ -23,7 +23,7 @@
           <div class="col-md-3 col-6">
             <ul style="list-style-type: none">
               <li class="text-light font-weight-bold">Зарабатывайте с нами</li>
-              <li><a class="footer-link font-weight-light" href="#">Продавайте с нами</a></li>
+              <li><a class="footer-link font-weight-light" href="#">Работайте с нами</a></li>
               <li><a class="footer-link font-weight-light" href="#">Станьте партнером</a><br></li>
               <li><a class="footer-link font-weight-light" href="#">Рекламируйте свою продукцию</a><br></li>
             </ul>
@@ -32,10 +32,10 @@
           <div class="col-md-3 col-6">
             <ul style="list-style-type: none">
               <li class="text-light font-weight-bold">Помощь</li>
-              <li><a class="footer-link font-weight-light" href="#">Центр возврата</a></li>
+              <li><a class="footer-link font-weight-light" href="#">Центр поддержки</a></li>
               <li><a class="footer-link font-weight-light" href="#">Гарантия</a><br></li>
               <li><a class="footer-link font-weight-light" href="#">Консультация</a><br></li>
-              <li><a class="footer-link font-weight-light" href="#">Условия возврата</a><br></li>
+              <li><a class="footer-link font-weight-light" href="#">Условия оказания услуг</a><br></li>
             </ul>
           </div>
         </div>

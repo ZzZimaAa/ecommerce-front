@@ -15,10 +15,10 @@
         <div class="col-md-5 px-3">
           <div class="card-block px-3">
             <h6 class="card-title">
-              <router-link v-bind:to="'/order/'+order.id">Номер заказа : {{order.id}}</router-link>
+              <router-link v-bind:to="'/order/'+order.id">Номер заказа: {{order.id}}</router-link>
             </h6>
-            <p class="mb-0">{{order.totalItems}} штук<span v-if="order.totalItems > 1">и</span></p>
-            <p id="item-price" class="mb-0 font-weight-bold">Итоговая цена : $ {{order.totalCost}}</p>
+            <p class="mb-0">{{order.totalItems}} кв. метров<span v-if="order.totalItems > 1">и</span></p>
+            <p id="item-price" class="mb-0 font-weight-bold">Итоговая цена: $ {{order.totalCost}}</p>
             <p id="item-total-price">Заказано на : {{order.orderdate}}</p>
           </div>
         </div>

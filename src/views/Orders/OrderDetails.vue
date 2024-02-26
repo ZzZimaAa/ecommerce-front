@@ -16,10 +16,10 @@
             <div class="col-md-5 px-3">
                 <div class="card-block px-3">
                     <h6 class="card-title" >{{orderItem.product.name}}</h6>
-                    <p id="item-price" class="mb-0 font-weight-bold">${{orderItem.product.price}} за единицу</p>
-                    <p id="item-quantity" class="mb-0">Количество : {{orderItem.quantity}}</p>
+                    <p id="item-price" class="mb-0 font-weight-bold">${{orderItem.product.price}} за кв. метр</p>
+                    <p id="item-quantity" class="mb-0">кв. метров: {{orderItem.quantity}}</p>
                     <p id="item-total-price" class="mb-0">
-                        Итоговая цена : $<span class="font-weight-bold">{{ orderItem.price * orderItem.quantity}}</span>
+                        Итоговая цена: $<span class="font-weight-bold">{{ orderItem.price * orderItem.quantity}}</span>
                     </p>
                 </div>
             </div>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="total-cost pt-2 text-right">
-            <h5>Итоговая цена : $ {{order.totalPrice}}</h5>
+            <h5>Итоговая цена: $ {{order.totalPrice}}</h5>
         </div>
     </div>
 

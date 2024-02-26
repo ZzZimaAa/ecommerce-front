@@ -26,7 +26,7 @@
             size="100"
             type="text"
             class="form-control"
-            placeholder="Search Items"
+            placeholder="Поиск"
             aria-label="Username"
             aria-describedby="basic-addon1"
             v-model="searchQuery"
@@ -71,7 +71,7 @@
               >Главная</router-link
             >
             <router-link class="dropdown-item" :to="{ name: 'Product' }"
-              >Продукты</router-link
+              >Услуги</router-link
             >
             <router-link class="dropdown-item" :to="{ name: 'Category' }"
               >Категории</router-link

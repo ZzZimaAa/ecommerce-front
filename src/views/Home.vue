@@ -5,9 +5,9 @@
 
       <div class="container py-5">
         <header class="text-left text-white py-5">
-          <h3 class="mb-4 rounded"><a href="#start-shopping" class="bg-white px-2 py-2 rounded" id="heading">Начните делать покупки</a></h3>
-          <p id="content" class="lead mb-0 bg-dark p-1 rounded">Данный проект предназначен только для образовательных целей.
-            Он может быть использован разработчиками, чтобы узнать о разработке приложения для электронной коммерции в комплекте с серверной частью и интерфейсом для Web</p>
+          <h3 class="mb-4 rounded"><a href="#start-shopping" class="bg-white px-2 py-2 rounded" id="heading">Реализуйте свои мечты</a></h3>
+          <p id="content" class="lead mb-0 bg-dark p-1 rounded">Нужно сделать ремонт квартиры? Мы выполним ремонт вашей квартиры под ключ. Весь спектр внутренних отделочных работ в квартирах и коттеджах.
+            Ремонт любой сложности: косметический, капитальный, дизайнерский.</p>
         </header>
       </div>
     </div>
@@ -15,7 +15,7 @@
     <div id="start-shopping" class="container">
       <div class="row">
         <div class="col-12 text-left">
-          <h2 class="pt-3">Топ категоорий</h2>
+          <h2 class="pt-3">Топ категорий</h2>
         </div>
       </div>
       <div class="row">
@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-left">
-          <h2 class="pt-3">Топ продуктов</h2>
+          <h2 class="pt-3">Топ услуг</h2>
         </div>
       </div>
       <div class="row">

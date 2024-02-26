@@ -3,8 +3,8 @@
     <h3>Вы будете перенаправлены на страницу оплаты</h3>
 
     <div class="alert alert-primary" role="alert">
-      При совершении платежа используйте номер карты 4242 4242 4242 4242 и введите случайный
-      cvv(3 цифры)
+      При совершении платежа используйте номер карты "4242 4242 4242 4242" и введите случайный
+      CVV (3 цифры)
     </div>
 
     <button
@@ -22,7 +22,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      stripeAPIToken: "...", // process.env.VUE_APP_STRIPETOKEN 
+      stripeAPIToken: 'pk_test_51LvfZ7DYRlwJSIng15gAYlH4t34Osc2kffXyL8oXl7jpT1q5CpfQOkqwLQ92WDlBRCiMwrnvaFCqTPcjELzOoIS2000J66YgwY', // process.env.VUE_APP_STRIPETOKEN 
       stripe: '',
       token: null,
       sessionId: null,

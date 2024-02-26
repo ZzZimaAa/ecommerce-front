@@ -39,11 +39,11 @@
   
       this.len = this.category.products.length;
       if(this.len == 0) {
-        this.msg = "Извините, товары не найдены";
+        this.msg = "Извините, услуги не найдены";
       } else if(this.len == 1) {
-        this.msg = "Найден только 1 товар";
+        this.msg = "Найдена только 1 услуга";
       } else {
-        this.msg = this.len + " найденных продуктов";
+        this.msg = this.len + " найденно услуг";
       }
     }
   }
